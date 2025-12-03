@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageDetail"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_coffee"
+            android:contentDescription="coffee image" />
+
+        <TextView
+            android:id="@+id/textNameDetail"
+            android:text="Coffee Name"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/textPriceDetail"
+            android:text="$2.50"
+            android:textSize="18sp"
+            android:layout_marginTop="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/textDescriptionDetail"
+            android:text="Long description of the coffee product."
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/buttonOrder"
+            android:text="Order"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>
