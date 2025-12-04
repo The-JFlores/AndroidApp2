@@ -19,7 +19,7 @@
             android:layout_height="72dp"
             android:scaleType="centerCrop"
             android:contentDescription="coffee image"
-            android:src="@drawable/ic_coffee" />
+            android:src="@drawable/ic_icon" />
 
         <LinearLayout
             android:orientation="vertical"

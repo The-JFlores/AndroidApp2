@@ -14,7 +14,7 @@
             android:layout_width="match_parent"
             android:layout_height="220dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/ic_coffee"
+            android:src="@drawable/ic_icon"
             android:contentDescription="coffee image" />
 
         <TextView

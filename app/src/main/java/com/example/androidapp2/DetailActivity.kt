@@ -28,7 +28,7 @@ class DetailActivity : AppCompatActivity() {
         val short = intent.getStringExtra("short") ?: ""
         val longDesc = intent.getStringExtra("long") ?: ""
         val price = intent.getDoubleExtra("price", 0.0)
-        val imageRes = intent.getIntExtra("image", R.drawable.ic_coffee)
+        val imageRes = intent.getIntExtra("image", R.drawable.ic_icon)
 
         // Populate views
         imageView.setImageResource(imageRes)

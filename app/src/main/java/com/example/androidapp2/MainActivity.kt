@@ -23,9 +23,9 @@ class MainActivity : AppCompatActivity() {
 
         // Sample data — using the ic_coffee placeholder vector
         val sample = listOf(
-            Coffee("Americano", "Hot espresso with water", "Classic Americano: double shot espresso and hot water.", 2.50, R.drawable.ic_coffee),
-            Coffee("Latte", "Espresso with steamed milk", "Creamy latte with velvety milk foam.", 3.75, R.drawable.ic_coffee),
-            Coffee("Iced Coffee", "Cold brewed", "Refreshing iced coffee with a hint of sweetness.", 2.95, R.drawable.ic_coffee)
+            Coffee("Americano", "Hot espresso with water", "Classic Americano: double shot espresso and hot water.", 2.50, R.drawable.ic_icon),
+            Coffee("Latte", "Espresso with steamed milk", "Creamy latte with velvety milk foam.", 3.75, R.drawable.ic_icon),
+            Coffee("Iced Coffee", "Cold brewed", "Refreshing iced coffee with a hint of sweetness.", 2.95, R.drawable.ic_icon)
         )
 
         val adapter = CoffeeAdapter(sample)
